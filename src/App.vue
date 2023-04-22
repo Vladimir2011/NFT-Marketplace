@@ -12,7 +12,7 @@
 </template>
 
 <style scoped>
-.container {
-	@apply flex-col-reverse text-center;
-}
+	.container {
+		@apply flex-col-reverse text-center;
+	}
 </style>
