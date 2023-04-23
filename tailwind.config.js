@@ -5,7 +5,14 @@ module.exports = {
 		fontFamily: {
 			sans: ['Poppins', 'sans-serif']
 		},
-		extend: {}
+		extend: {
+			colors: {
+				darkPurple: {
+					800: '#1D1932',
+					900: '#131129'
+				}
+			}
+		}
 	},
 	plugins: []
 }

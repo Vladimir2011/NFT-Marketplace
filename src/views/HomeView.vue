@@ -1,0 +1,7 @@
+<template>
+	<div class="text-amber-950">HOME</div>
+</template>
+
+<script lang="ts" setup></script>
+
+<style scoped></style>

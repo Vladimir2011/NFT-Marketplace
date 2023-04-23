@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "dashboard",
+    "link": "#",
+    "icon": "dashboard.svg"
+  },
+  {
+    "id": 2,
+    "name": "bid",
+    "link": "#",
+    "icon": "bid.svg"
+  },
+  {
+    "id": 3,
+    "name": "heart",
+    "link": "#",
+    "icon": "heart.svg"
+  },
+  {
+    "id": 4,
+    "name": "collection",
+    "link": "#",
+    "icon": "collection.svg"
+  },
+  {
+    "id": 5,
+    "name": "profile",
+    "link": "#",
+    "icon": "profile.svg"
+  },
+  {
+    "id": 6,
+    "name": "setting",
+    "link": "#",
+    "icon": "setting.svg"
+  }
+]
