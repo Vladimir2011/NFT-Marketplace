@@ -7,11 +7,12 @@
 </template>
 
 <script lang="ts" setup>
-	const props = defineProps({
-		link: {
-			type: String,
-			required: true
-		}
+	interface Props {
+		link?: string
+	}
+
+	const props = withDefaults(defineProps<Props>(), {
+		link: ''
 	})
 </script>
 

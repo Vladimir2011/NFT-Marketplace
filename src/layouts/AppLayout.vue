@@ -15,10 +15,10 @@
 
 <style scoped>
 	.app_layout {
-		@apply flex;
+		@apply fixed flex h-full w-full;
 	}
 
 	.content {
-		@apply w-full bg-darkPurple-900;
+		@apply relative mx-auto my-0 w-full overflow-auto bg-darkPurple-900 px-[70px];
 	}
 </style>
