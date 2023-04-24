@@ -1,24 +1,32 @@
 <template>
-	<div class="app_layout">
-		<app-layout-sidebar />
-		<div class="content">
-			<app-layout-header />
-			<slot />
-		</div>
-	</div>
+	<component :is="layout">
+		<slot />
+	</component>
 </template>
 
 <script lang="ts" setup>
-	import AppLayoutHeader from '@/layouts/AppLayoutHeader.vue'
-	import AppLayoutSidebar from '@/layouts/AppLayoutSidebar.vue'
+	import { shallowRef, watch } from 'vue'
+	import { useRoute } from 'vue-router'
+	import AppLayoutDefault from './AppLayoutDefault.vue'
+	const route = useRoute()
+	const layout = shallowRef<any>(null)
+
+	interface MetaLayout {
+		layout: any
+	}
+
+	watch(
+		() => route.meta as MetaLayout,
+		async meta => {
+			try {
+				// @ts-ignore
+				const component = await import(`./${meta.layout}.vue`)
+				layout.value = component?.default || AppLayoutDefault
+			} catch (e) {
+				layout.value = AppLayoutDefault
+			}
+		}
+	)
 </script>
 
-<style scoped>
-	.app_layout {
-		@apply fixed flex h-full w-full;
-	}
-
-	.content {
-		@apply relative mx-auto my-0 w-full overflow-auto bg-darkPurple-900 px-[70px];
-	}
-</style>
+<style scoped></style>

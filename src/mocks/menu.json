@@ -2,37 +2,37 @@
   {
     "id": 1,
     "name": "dashboard",
-    "link": "#",
+    "link": "/",
     "icon": "dashboard.svg"
   },
   {
     "id": 2,
     "name": "bid",
-    "link": "#",
+    "link": "/bid",
     "icon": "bid.svg"
   },
   {
     "id": 3,
     "name": "heart",
-    "link": "#",
+    "link": "/saved",
     "icon": "heart.svg"
   },
   {
     "id": 4,
     "name": "collection",
-    "link": "#",
+    "link": "/collection",
     "icon": "collection.svg"
   },
   {
     "id": 5,
     "name": "profile",
-    "link": "#",
+    "link": "/profile",
     "icon": "profile.svg"
   },
   {
     "id": 6,
     "name": "setting",
-    "link": "#",
+    "link": "/settings",
     "icon": "setting.svg"
   }
 ]

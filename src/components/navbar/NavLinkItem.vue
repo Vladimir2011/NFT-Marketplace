@@ -1,8 +1,8 @@
 <template>
 	<li>
-		<a :href="props.link">
+		<router-link :to="props.link">
 			<slot />
-		</a>
+		</router-link>
 	</li>
 </template>
 

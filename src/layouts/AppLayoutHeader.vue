@@ -16,6 +16,6 @@
 
 <style scoped>
 	.header {
-		@apply fixed my-0 w-full overflow-auto bg-darkPurple-900 pt-[30px];
+		@apply sticky top-0 my-0 w-full overflow-auto bg-darkPurple-900 pt-[30px];
 	}
 </style>
