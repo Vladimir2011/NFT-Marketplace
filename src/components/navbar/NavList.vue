@@ -1,5 +1,5 @@
 <template>
-	<nav>
+	<nav class="flex-auto">
 		<ul class="flex flex-col items-center justify-center gap-[50px]">
 			<nav-link-item v-for="item in menu" :key="item.id" :link="item.link">
 				<img :src="getImageSvg(item.icon)" :alt="item.name" />
