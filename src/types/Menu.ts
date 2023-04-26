@@ -3,4 +3,5 @@ export default interface MenuItem {
 	name: string
 	link: string
 	icon: string
+	iconActive: string
 }

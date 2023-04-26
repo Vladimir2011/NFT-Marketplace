@@ -3,36 +3,42 @@
     "id": 1,
     "name": "dashboard",
     "link": "/",
-    "icon": "dashboard.svg"
+    "icon": "dashboard.svg",
+    "iconActive": "dashboard-active.svg"
   },
   {
     "id": 2,
     "name": "bid",
     "link": "/bid",
-    "icon": "bid.svg"
+    "icon": "bid.svg",
+    "iconActive": "bid-active.svg"
   },
   {
     "id": 3,
     "name": "heart",
     "link": "/saved",
-    "icon": "heart.svg"
+    "icon": "heart.svg",
+    "iconActive": "heart-active.svg"
   },
   {
     "id": 4,
     "name": "collection",
     "link": "/collection",
-    "icon": "collection.svg"
+    "icon": "collection.svg",
+    "iconActive": "collection-active.svg"
   },
   {
     "id": 5,
     "name": "profile",
     "link": "/profile",
-    "icon": "profile.svg"
+    "icon": "profile.svg",
+    "iconActive": "profile-active.svg"
   },
   {
     "id": 6,
     "name": "setting",
     "link": "/settings",
-    "icon": "setting.svg"
+    "icon": "setting.svg",
+    "iconActive": "setting.svg"
   }
 ]

@@ -20,7 +20,7 @@
 		async meta => {
 			try {
 				// @ts-ignore
-				const component = await import(`./${meta.layout}.vue`)
+				const component = await import(/* @vite-ignore */ `./${meta.layout}.vue`)
 				layout.value = component?.default || AppLayoutDefault
 			} catch (e) {
 				layout.value = AppLayoutDefault
