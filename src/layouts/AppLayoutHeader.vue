@@ -1,5 +1,5 @@
 <template>
-	<header class="header">
+	<header class="header mb-12">
 		<div class="flex justify-between">
 			<label for="search" class="relative block w-full max-w-[380px]">
 				<input type="search" name="search" class="input-search" placeholder="Search Here" />
@@ -25,7 +25,7 @@
 
 <style scoped>
 	.header {
-		@apply sticky top-0 my-0 w-full overflow-auto bg-darkPurple-900 pt-[30px];
+		@apply sticky top-0 w-full overflow-auto bg-darkPurple-900 pt-[30px];
 	}
 
 	.input-search {
